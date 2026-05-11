@@ -39,7 +39,7 @@ window.addEventListener('DOMContentLoaded', (event) => {{
     }}).then(response => {{
 
       CometChatWidget.launch({{
-        widgetID: "{WIDGET_ID}",
+        widgetID: "6a0192ad130bd98e16457f81",
         target: "#cometchat",
         roundedCorners: "true",
         height: "700px",
