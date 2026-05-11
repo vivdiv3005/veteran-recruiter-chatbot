@@ -29,9 +29,9 @@ html_code = f"""
 window.addEventListener('DOMContentLoaded', (event) => {{
 
   CometChatWidget.init({{
-    "appID": "1678722f7912193e5",
-    "appRegion": "IN",
-    "authKey": "1109c27e9026b41f371b82fec3cc50968fa81b4e"
+    "appID": "{APP_ID}",
+    "appRegion": "{REGION}",
+    "authKey": "{AUTH_KEY}"
   }}).then(response => {{
 
     CometChatWidget.login({{
@@ -39,7 +39,7 @@ window.addEventListener('DOMContentLoaded', (event) => {{
     }}).then(response => {{
 
       CometChatWidget.launch({{
-        widgetID: "6a0192ad130bd98e16457f81",
+        widgetID: "{WIDGET_ID}",
         target: "#cometchat",
         roundedCorners: "true",
         height: "700px",
